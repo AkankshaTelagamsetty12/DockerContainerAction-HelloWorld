@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: DockerContainerAction-HelloWorld/hello-world-docker-action@v1
+        uses: DockerContainerAction-HelloWorld/Hello World
         with:
           who-to-greet: 'Akanksha'
       # Use the output from the `hello` step
